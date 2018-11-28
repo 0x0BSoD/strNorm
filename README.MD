@@ -4,7 +4,7 @@ Package for normalizing string
 ### Example
 ```go
 import (
-    "github.com/0x0BSoD/strNorm"
+    "github.com/0x0bsod/strNorm"
     "fmt"
 )
 func main() {
