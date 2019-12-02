@@ -9,7 +9,7 @@ import (
 )
 func main() {
     str := "/dev/sda3            329229596   184366340   128069656  60% /home"
-    norm_string = strNorm.Normalize(str)
+    normString := strNorm.Normalize(str)
     fmt.Println(norm_string)
     // Output: /dev/sda3 329229596 184366340 128069656 60% /home
 }
